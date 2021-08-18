@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type"  content="text/html;charset=utf-8"/> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Wellcome payments</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" />
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<link href='https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="../css/style_well.css" />
+
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/com_ui.js"></script>
+</head>
+
+<body>
+
+<div class="wrap_main bgf5">
+    
+    <div class="Contents sub03 flx_col_bet in_pdb">
+
+        <section class="the_top sub_top">
+            <article class="top_center">
+                <p class="go_back">
+                    <a href="#" onclick="moveBack();">
+                        <img class="img_back" src="../images/sv_arr_back.svg" />
+                    </a>
+                </p>
+                <div class="top_title">
+                    <h1 class="fs03">내역보기</h1>
+                </div>
+                <div class="top_right">
+                    <div class="top_gift">
+                        <span class="top_count ff_robo">23</span>
+                        <a href="../main/gift01.html"></a>
+                    </div>
+                    <div class="top_alarm">
+                        <span class="top_count ff_robo">1</span>
+                        <a href="../main/alarm01.html"></a>
+                    </div>
+                </div><!--top_right-->
+				<p class="sign_pull swipe-detector">
+					<img src="../images/sv_pull.svg" />
+				</p>
+            </article><!--top_center-->
+        </section>
+
+        <section class="sub_conts"> 
+            <article class="box_possible org">
+                <p class="bt_poss_etc"></p>
+				<p class="bt_poss_arr"></p>
+                <div class="hidd_menu">
+                    <div class="hidd_back"></div>
+                    <div class="hidd_bg">
+                        <p class="hmenu">
+                            <a href="../list/list01_detail.html">상세</a>
+                        </p>
+                        <p class="hmenu">
+                            <a>간편충전</a>
+                        </p>
+						<p class="hmenu">
+                            <a>자동충전</a>
+                        </p>
+						<p class="hmenu">
+                            <a>수단설정</a>
+                        </p>
+						<p class="hmenu">
+                            <a class="link_hide">숨기기</a>
+                        </p>
+                    </div><!--hidd_bg-->
+                </div><!--hidd_menu-->
+
+                <div class="poss_result flx_cent_bet">
+                    <p class="poss_what">사용가능 웰컴머니</p>
+                    <h3 class="poss_money">
+                        <span class="ff_robo">16,000</span><span class="unit">원</span>
+                    </h3>
+                </div><!--poss_result-->
+            </article><!--box_possible-->
+
+			<div class="gr_search m-t-30">    
+                <div class="srch_gift_month">
+                    <button type="button" class="bt_month on">
+                        1주일
+                    </button>
+                    <button type="button" class="bt_month">
+                        1개월
+                    </button>
+                    <button type="button" class="bt_month">
+                        6개월
+                    </button>
+                    <button type="button" class="bt_month bt_detail">
+                        상세조회
+                    </button>
+                </div><!--srch_gift_month-->
+
+                <div class="srch_detail_time">
+                    <div class="container">  
+                        <div class="demo_box">
+                            <form class="demo-1">
+                                <input type='text' class="form-control ff_robo">
+                            </form>
+                        </div>
+                        <div class="demo_box">
+                            <form class="demo-2">
+                                <input type='text' class="form-control ff_robo">
+                            </form>
+                        </div>
+                    </div><!--container-->
+                </div><!--srch_detail_time-->
+
+                <div class="srch_gift_time">
+					<div class="srch_left">
+						<select class="gift_now_select">
+							<option value="">최신순</option>
+						</select>
+						<select class="gift_all_select">
+							<option value="">전체</option>
+							<option value="">충전</option>
+							<option value="">사용</option>
+						</select>
+					</div>
+					<div class="srch_right">
+						<div class="check_room">
+							<span class="ch_word">잔액</span>
+							<input type="checkbox" class="agency_put" id="chk1">
+							<label for="chk1" class="agebel">
+								<span>선택</span>
+							</label>
+						</div><!--check_room-->
+					</div>
+                </div><!--srch_gift_time-->
+
+                <button type="submit" class="btn_srch_gift">
+                    조회
+                </button>
+            </div><!--gr_search-->
+            
+            <article class="pull_contents">            
+                <div class="gr_pull">
+                    <p class="date_title ff_robo">
+                        2021.01.05
+                    </p>
+                    <div class="pull_list"> 
+                        <dl class="calcu_dl">
+                            <dt>
+                                <span class="time">18:42</span>
+                                <p class="fs01">담소사골순대</p>
+                            </dt>
+                            <dd>
+                                <div class="calcu_totall" onclick="location.href='../list/list_cont_detail.html'">
+                                    <span class="ff_robo">-19,250</span><span>원</span>
+                                </div>
+                                <div class="balance">
+                                    <div class="flx_cent_right">
+                                        <span class="ff_robo">16,000</span>
+                                        <span>원</span> 
+                                    </div>  
+                                </div><!--balance-->
+                            </dd>
+                        </dl>
+                        <dl class="calcu_dl">
+                            <dt>
+                                <span class="time">13:15</span>
+                                <p class="fs01">장안삼계탕</p>
+                            </dt>
+                            <dd>
+                                <div class="calcu_totall" onclick="location.href='../list/list_cont_detail.html'">
+                                    <span class="ff_robo">-17,500</span><span>원</span>
+                                </div>
+                                <div class="balance">
+                                    <div class="flx_cent_right">
+                                        <span class="ff_robo">31,000</span>
+                                        <span>원</span> 
+                                    </div>  
+                                </div><!--balance-->
+                            </dd>
+                        </dl>
+						<dl class="calcu_dl">
+                            <dt>
+                                <span class="time">17:50</span>
+                                <p class="fs01">즉시충전</p>
+                            </dt>
+                            <dd>
+                                <div class="calcu_totall add" onclick="location.href='../list/list_charge_detail.html'">
+                                    <span class="ff_robo">+30,000</span><span>원</span>
+                                </div>
+                                <div class="balance">
+                                    <div class="flx_cent_right">
+                                        <span class="ff_robo">48,500</span>
+                                        <span>원</span> 
+                                    </div>  
+                                </div><!--balance-->
+                            </dd>
+                        </dl>
+                    </div><!--pull_list-->
+                </div><!--gr_pull-->
+
+				<div class="gr_pull">
+                    <p class="date_title ff_robo">
+                        2021.01.04
+                    </p>
+                    <div class="pull_list">
+						<dl class="calcu_dl">
+                            <dt>
+                                <span class="time">17:50</span>
+                                <p class="fs01">자동충전</p>
+                            </dt>
+                            <dd>
+                                <div class="calcu_totall add">
+                                    <span class="ff_robo">+10,000</span><span>원</span>
+                                </div>
+                                <div class="balance">
+                                    <div class="flx_cent_right">
+                                        <span class="ff_robo">18,500</span>
+                                        <span>원</span> 
+                                    </div>  
+                                </div><!--balance-->
+                            </dd>
+                        </dl>
+                        <dl class="calcu_dl">
+                            <dt>
+                                <span class="time">18:42</span>
+                                <p class="fs01">담소사골순대</p>
+                            </dt>
+                            <dd>
+                                <div class="calcu_totall">
+                                    <span class="ff_robo">-19,250</span><span>원</span>
+                                </div>
+                                <div class="balance">
+                                    <div class="flx_cent_right">
+                                        <span class="ff_robo">31,000</span>
+                                        <span>원</span> 
+                                    </div>  
+                                </div><!--balance-->
+                            </dd>
+                        </dl>
+                        <dl class="calcu_dl">
+                            <dt>
+                                <span class="time">13:15</span>
+                                <p class="fs01">장안삼계탕</p>
+                            </dt>
+                            <dd>
+                                <div class="calcu_totall">
+                                    <span class="ff_robo">-17,500</span><span>원</span>
+                                </div>
+                                <div class="balance">
+                                    <div class="flx_cent_right">
+                                        <span class="ff_robo">31,000</span>
+                                        <span>원</span> 
+                                    </div>  
+                                </div><!--balance-->
+                            </dd>
+                        </dl>
+                    </div><!--pull_list-->
+                </div><!--gr_pull-->
+
+                <div class="more_list">
+                    <p class="btn_plus">
+                        <img src="../images/sv_plus_circle.svg" alt="더보기" />
+                    </p>
+                </div><!--more_list-->
+
+            </article><!--pull_contents-->
+        </section><!--sub_conts-->
+
+        <section class="button_zone">
+        </section>
+
+    </div><!--Contents-->
+
+    <footer>
+        <section class="ft_wrap">
+            <div class="ft_btqr">
+                <span class="qr_wh_mark"></span>
+            </div>
+			<div class="ft_btcode">
+                <span class="qr_ft_cancel"></span>
+            </div>
+            <div class="ft_left">
+                <div class="ft_box">
+                    <a href="../main/main.html">
+						<div class="ft_center">
+							<span class="ft_icon">
+								<img class="ic_foot" src="../images/ft_home.svg" />
+								<img class="ic_foot_on" src="../images/ft_home_on.svg" />
+							</span>
+							<span class="ft_word">홈</span>
+						</div>
+                    </a>
+                </div>
+                <div class="ft_box">
+                    <a href="../charge/simple.html">
+						<div class="ft_center">
+							<span class="ft_icon">
+								<img class="ic_foot" src="../images/ft_charge.svg" />
+								<img class="ic_foot_on" src="../images/ft_charge_on.svg" />
+							</span>
+							<span class="ft_word">충전</span>
+						</div>
+                    </a>
+                </div>
+            </div>
+            <div class="ft_cent">
+                <a href="../use/fix01.html">
+					<div class="ft_center">
+						<span class="ft_word">사용</span>
+					</div>
+                </a>
+            </div>
+            <div class="ft_right">
+                <div class="ft_box">
+                    <a href="../list/list01.html">
+						<div class="ft_center on">
+							<span class="ft_icon">
+								<img class="ic_foot" src="../images/ft_list.svg" />
+								<img class="ic_foot_on" src="../images/ft_list_on.svg" />
+							</span>
+							<span class="ft_word">내역</span>
+						</div>
+                    </a>
+                </div>
+                <div class="ft_box">
+                    <a href="../more/more_main.html">
+						<div class="ft_center">
+							<span class="ft_icon">
+								<img class="ic_foot" src="../images/ft_etc.svg" />
+								<img class="ic_foot_on" src="../images/ft_etc_on.svg" />
+							</span>
+							<span class="ft_word">더보기</span>
+						</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </footer>
+	<section class="quick_wrap">
+		<div class="quick_in">
+			<article class="quk_zone">
+				<a href="../use/show01.html">
+					<div class="qukin">
+						<img src="../images/sv_quk_qr.svg" alt="QR코드 보여주기" />
+						<span class="quk_word">QR코드 보여주기</span>
+					</div>
+				</a>
+			</article>
+			<article class="quk_zone">
+				<a href="../use/fix01.html">
+					<div class="qukin">
+						<img src="../images/sv_quk_scan.svg" alt="QR코드 스캔" />
+						<span class="quk_word">QR코드 스캔</span>
+					</div>
+				</a>
+			</article>
+			<article class="quk_zone">
+				<a href="../use/barcode01.html">
+					<div class="qukin">
+						<img src="../images/sv_quk_barcode.svg" alt="바코드 보여주기" />
+						<span class="quk_word">바코드 보여주기</span>
+					</div>
+				</a>
+			</article>
+		</div><!--quick_in-->
+	</section><!--quick_wrap-->
+
+</div><!--wrap_main-->
+
+<script type="text/javascript" src="../js/after.js"></script>
+<script type="text/javascript" src="../js/swipeDown.js"></script>
+
+<!-- 달력 -->
+<link href="../css/jquery.minical.css" rel="stylesheet" type="text/css">
+<script src="../js/jquery.minical.js"></script> 
+<script>
+$("form.demo-1 :text").minical();
+$("form.demo-2 :text").minical({
+    inline: false
+});
+</script>
+
+</body>
+
+</html>

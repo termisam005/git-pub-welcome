@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type"  content="text/html;charset=utf-8"/> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Wellcome payments</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" />
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<link href='https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="../css/style_well.css" />
+
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/com_ui.js"></script>
+</head>
+
+<body>
+
+<div class="wrap">
+    
+    <div class="Contents flx_col_bet">
+        
+        <section class="the_top">
+            <article class="top_center">
+                <p class="go_back">
+                    <a href="#" onclick="moveBack();">
+                        <img class="img_back" src="../images/sv_arr_back.svg" />
+                    </a>
+                </p>
+                <div class="top_title">
+                    <h1 class="fs03">소셜로그인 정보 입력</h1>
+                </div>
+            </article><!--top_center-->
+        </section>
+
+        <section class="join_conts">
+
+            <article class="form_group">
+                <h5 class="put_title">아래 정보를 입력해 주세요.</h5>
+                <div class="put_group">
+                    <input type="text" class="req_put" required>
+                    <label class="req_bel">
+                        이름
+                    </label>
+                </div><!--put_group-->
+                <div class="put_group">
+                    <input type="text" class="req_put did ff_robo" value="2010. 01. 01" required>
+                    <label class="req_bel">
+                        생년월일
+                    </label>
+                </div><!--put_group-->
+                <div class="put_group">
+                    <input type="text" class="req_put did ff_robo" value="010-1234-5678" required>
+                    <label class="req_bel">
+                        휴대폰번호
+                    </label>
+                </div><!--put_group-->
+            </article><!--form_group-->
+
+            <article class="soci_group">
+                <div class="soci_cont">
+                    <h5 class="put_title">성별</h5>
+                    <div class="doub_wrap">
+                        <button type="button" class="btn_social btn_male" onclick="sobt_male();">남성</button>
+                        <button type="button" class="btn_social btn_female" onclick="sobt_female();">여성</button>
+                    </div>
+                </div><!--soci_cont-->
+                <div class="soci_cont">
+                    <h5 class="put_title">외국인</h5>
+                    <div class="doub_wrap">
+                        <button type="button" class="btn_social btn_local" onclick="sobt_local();">내국인</button>
+                        <button type="button" class="btn_social btn_foreign" onclick="sobt_foreign();">외국인</button>
+                    </div>
+                </div><!--soci_cont-->
+                <div class="attention">
+                    <span class="the_feel">
+                        <img src="../images/icon_feel.png" />
+                    </span>
+                    <span class="attent_txt">
+                        소셜 로그인을 통하여 입력받은 정보는 자동 입력됩니다.
+                    </span>
+                </div>
+            </article><!--add_group-->
+
+        </section>
+
+        <section class="button_zone">
+            <button type="button" class="button" onclick="location.href=''">
+                다음
+            </button>
+        </section>
+
+    </div><!--Contents-->
+
+</div><!--wrap-->
+
+<script type="text/javascript" src="../js/after.js"></script>
+</body>
+
+</html>

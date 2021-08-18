@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type"  content="text/html;charset=utf-8"/> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Wellcome payments</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" />
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<link href='https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="../css/style_well.css" />
+
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/jquery.bpopup.min.js"></script>
+<script type="text/javascript" src="../js/com_ui.js"></script>
+</head>
+
+<body>
+
+<div class="wrap_main">
+    
+    <div class="Contents sub flx_col_bet in_pdb">
+
+        <section class="the_top sub_top">
+            <article class="top_center">
+                <p class="go_back">
+                    <a href="#" onclick="moveBack();">
+                        <img class="img_back" src="../images/sv_arr_back.svg" />
+                    </a>
+                </p>
+                <div class="top_title">
+                    <h1 class="fs03">선물 보내기</h1>
+                </div>
+                <div class="top_right">
+                    <div class="top_gift">
+                        <span class="top_count ff_robo">23</span>
+                        <a href="../main/gift01.html"></a>
+                    </div>
+                    <div class="top_alarm">
+                        <span class="top_count ff_robo">1</span>
+                        <a href="../main/alarm01.html"></a>
+                    </div>
+                </div><!--top_right-->
+            </article><!--top_center-->
+        </section>
+
+        <section class="sub_conts">
+            <article class="box_possible org">
+                <p class="bt_poss_etc"></p>
+                <div class="poss_result flx_cent_bet">
+                    <p class="poss_what">사용 가능머니</p>
+                    <h3 class="poss_money">
+                        <span class="ff_robo">16,000</span><span class="unit">원</span>
+                    </h3>
+                </div>
+            </article><!--box_possible-->
+            
+            <article class="send_contents">       
+                
+                <div class="m-t-20">
+                    <div class="poss_result send">
+                        <p class="poss_what">선물할 머니</p>
+                        <h3 class="poss_money">
+                            <span class="ff_robo">10,000</span><span class="unit">원</span>
+                        </h3>
+                    </div><!--poss_result-->
+                </div>
+                <div class="charge_select">
+                    <button type="button" class="btn_selt">+1만원</button>
+                    <button type="button" class="btn_selt">+3만원</button>
+                    <button type="button" class="btn_selt">+5만원</button>
+                    <button type="button" class="btn_selt">+10만원</button>
+                    <button type="button" class="btn_selt">+20만원</button>
+                </div><!--charge_select-->
+                
+                <article class="plus_zone">
+                    <p class="terms_title"></p>
+                    <div class="send_ch_box">
+                        <input type="text" class="send_put ff_robo" placeholder="아이디 입력">
+                        <p class="btn_minus"></p>
+                    </div><!--send_ch_box-->
+                    <p class="btn_plus" onclick="appendSend2();">
+                        <img src="../images/sv_plus_circle.svg" />
+                    </p>
+                </article><!--plus_zone-->
+                
+            </article><!--send_contents-->
+        </section><!--sub_conts-->
+
+        <section class="button_zone">
+            <button type="button" class="button" onclick="send_pop();">
+                선물보내기
+            </button>
+        </section><!--sub_conts-->
+
+    </div><!--Contents-->
+
+    <footer>
+        <section class="ft_wrap">
+            <div class="ft_btqr">
+                <span class="qr_wh_mark"></span>
+            </div>
+			<div class="ft_btcode">
+                <span class="qr_ft_cancel"></span>
+            </div>
+            <div class="ft_left">
+                <div class="ft_box">
+                    <a href="../main/main.html">
+						<div class="ft_center on">
+							<span class="ft_icon">
+								<img class="ic_foot" src="../images/ft_home.svg" />
+								<img class="ic_foot_on" src="../images/ft_home_on.svg" />
+							</span>
+							<span class="ft_word">홈</span>
+						</div>
+                    </a>
+                </div>
+                <div class="ft_box">
+                    <a href="../charge/simple.html">
+						<div class="ft_center">
+							<span class="ft_icon">
+								<img class="ic_foot" src="../images/ft_charge.svg" />
+								<img class="ic_foot_on" src="../images/ft_charge_on.svg" />
+							</span>
+							<span class="ft_word">충전</span>
+						</div>
+                    </a>
+                </div>
+            </div>
+            <div class="ft_cent">
+                <a href="../use/fix01.html">
+					<div class="ft_center">
+						<span class="ft_word">사용</span>
+					</div>
+                </a>
+            </div>
+            <div class="ft_right">
+                <div class="ft_box">
+                    <a href="../list/list01.html">
+						<div class="ft_center">
+							<span class="ft_icon">
+								<img class="ic_foot" src="../images/ft_list.svg" />
+								<img class="ic_foot_on" src="../images/ft_list_on.svg" />
+							</span>
+							<span class="ft_word">내역</span>
+						</div>
+                    </a>
+                </div>
+                <div class="ft_box">
+                    <a href="../more/more_main.html">
+						<div class="ft_center">
+							<span class="ft_icon">
+								<img class="ic_foot" src="../images/ft_etc.svg" />
+								<img class="ic_foot_on" src="../images/ft_etc_on.svg" />
+							</span>
+							<span class="ft_word">더보기</span>
+						</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </footer>
+	<section class="quick_wrap">
+		<div class="quick_in">
+			<article class="quk_zone">
+				<a href="../use/show01.html">
+					<div class="qukin">
+						<img src="../images/sv_quk_qr.svg" alt="QR코드 보여주기" />
+						<span class="quk_word">QR코드 보여주기</span>
+					</div>
+				</a>
+			</article>
+			<article class="quk_zone">
+				<a href="../use/fix01.html">
+					<div class="qukin">
+						<img src="../images/sv_quk_scan.svg" alt="QR코드 스캔" />
+						<span class="quk_word">QR코드 스캔</span>
+					</div>
+				</a>
+			</article>
+			<article class="quk_zone">
+				<a href="../use/barcode01.html">
+					<div class="qukin">
+						<img src="../images/sv_quk_barcode.svg" alt="바코드 보여주기" />
+						<span class="quk_word">바코드 보여주기</span>
+					</div>
+				</a>
+			</article>
+		</div><!--quick_in-->
+	</section><!--quick_wrap-->
+
+</div><!--wrap_main-->
+
+<!-- 팝업 -->
+<script>
+    function send_pop() {	
+		$(".send_Pop01").bPopup();
+	}
+</script>
+
+<div class="layer_pop send_Pop01">
+	<div class="modal_body">
+		<div class="pop_top">
+            <h1>선물하기</h1>
+        </div>
+        <div class="pop_cont"> 
+            <dl class="meas_dl conf">
+                <dt>
+                    <span class="leting">받는사람</span>
+                    <span>:</span>
+                </dt>
+                <dd>
+                    <span class="meas_word">welcome1 외 2명</span>
+                </dd>
+            </dl>
+            <dl class="meas_dl conf">
+                <dt>
+                    <span class="let_long">
+                        <span>금</span>
+                        <span>액</span>
+                    </span><!--let_long-->
+                    <span>:</span>
+                </dt>
+                <dd>
+                    <span class="meas_word">10,000원</span>
+                </dd>
+            </dl>
+            <p class="pop_text txt m-t-15">
+                계속하시겠습니까?
+            </p>
+        </div>
+        <button type="button" class="btn_pop b-close" onclick="location.href='../send/send_id02.html'">
+            확인
+        </button>
+        <button type="button" class="btn_pop btn_pop_cancel b-close">취소</button>
+	</div><!-- modal_body -->
+</div><!-- layer_pop -->
+<!-- 팝업 End -->
+
+<script type="text/javascript" src="../js/after.js"></script>
+</body>
+
+</html>

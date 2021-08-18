@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="bullet_-_able" width="15" height="15" viewBox="0 0 15 15">
+    <defs>
+        <style>
+            .cls-3{fill:none}
+        </style>
+    </defs>
+    <g id="그룹_646" transform="translate(0.932 1.061)">
+        <g id="타원_93" fill="#fff" stroke="#ff7a00" transform="translate(0.068 -0.061)">
+            <circle cx="6.5" cy="6.5" r="6.5" stroke="none"/>
+            <circle cx="6.5" cy="6.5" r="6" class="cls-3"/>
+        </g>
+        <circle id="타원_99" cx="3.5" cy="3.5" r="3.5" fill="#ff7a00" transform="translate(3.068 2.939)"/>
+    </g>
+    <path id="사각형_3864" d="M0 0H15V15H0z" class="cls-3"/>
+</svg>

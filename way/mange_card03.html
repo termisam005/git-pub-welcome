@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type"  content="text/html;charset=utf-8"/> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Wellcome payments</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" />
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<link href='https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="../css/swiper.min.css">
+<link rel="stylesheet" type="text/css" href="../css/style_well.css" />
+
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/com_ui.js"></script>
+</head>
+
+<body>
+
+<div class="wrap_main">
+    
+    <div class="Contents flx_col_bet in_pdb">
+
+        <section class="main_top">
+            <article class="main_top_center"> 
+                <p class="go_back">
+                    <a href="#" onclick="moveBack();">
+                        <img class="img_back" src="../images/sv_arr_back.svg" />
+                    </a>
+                </p>
+                <div class="left_top_title">
+                    <h1 class="fs03">충전수단 추가</h1>
+                </div>
+            </article><!--main_top_center-->
+        </section>
+
+        <section class="sub_conts">
+
+                <div class="charge_cont way">
+                    <div class="mange_cont">
+                        <section class="way_wrap doub_wrap">
+                            <div class="way_zone way_card">
+                                <div class="way_box" onclick="location.href='../way/mange_card01.html'">
+                                    <img class="way_img" src="../images/sv_way_card.svg" />
+                                    <img class="way_img_on" src="../images/sv_way_card_on.svg" />
+                                    <p class="word">신용/체크카드</p>
+                                </div>  
+                            </div>
+                            <div class="way_zone way_account">
+                                <div class="way_box" onclick="location.href='../way/mange_account01.html'">
+                                    <img class="way_img" src="../images/sv_way_account.svg" />
+                                    <img class="way_img_on" src="../images/sv_way_account_on.svg" />
+                                    <p class="word">계좌이체</p>
+                                </div>
+                                
+                            </div>
+                            <div class="way_zone way_phone">
+                                <div class="way_box" onclick="location.href='../way/mange_phone01.html'">
+                                    <img class="way_img" src="../images/sv_way_phonein.svg" />
+                                    <img class="way_img_on" src="../images/sv_way_phonein_on.svg" />
+                                    <p class="word">휴대폰</p>
+                                </div>         
+                            </div>
+                        </section>
+                    </div><!--mange_cont-->
+                </div><!--charge_cont-->
+
+                <section class="mange_contain">
+                    <article class="add_zone">
+
+                       <div class="soci_cont">
+                           <h5 class="put_title">카드번호</h5>
+                           <div class="put_box">
+                               <span class="ff_robo">1234</span>
+                               <span class="space">-</span>
+                               <span class="ff_robo">5678</span>
+                               <span class="space">-</span>
+                               <span class="ff_robo">1234</span>
+                               <span class="space">-</span>
+                               <span class="ff_robo">5678</span>
+                           </div>
+                       </div><!--soci_cont-->
+
+                       <div class="doub_wrap">
+                            <div class="soci_cont">
+                                <h5 class="put_title">유효기간</h5>
+                                <div class="term_line">
+                                    <input type="text" class="mange_put" placeholder="MM" maxlength="2" />
+                                    <span class="noop">/</span>
+                                    <input type="text" class="mange_put" placeholder="YY" maxlength="2" />
+                                </div><!--term_line-->
+                            </div><!--soci_cont-->
+                            <div class="soci_cont">
+                                <h5 class="put_title">생년월일</h5>
+                                <input type="text" class="mange_put" placeholder="6자리 숫자" maxlength="6" />
+                            </div><!--soci_cont-->
+                       </div><!--doub_wrap-->
+
+                       <div class="soci_cont">
+                            <h5 class="put_title">비밀번호 앞 2자리</h5>
+                            <input type="text" class="mange_put" placeholder="2자리 숫자" maxlength="2" />
+                       </div>
+
+                       <div class="soci_cont">
+                            <h5 class="put_title">별칭(선택)</h5>
+                            <input type="text" class="mange_put" placeholder="최대 10글자" maxlength="10" />
+                        </div>
+
+                    </article><!--add_zone-->
+                </section><!--mange_contain-->
+
+        </section><!--sub_conts-->
+
+        <section class="button_zone">
+            <button type="button" class="button on" onclick="location.href='../way/mange_card04.html'">
+                다음
+            </button>
+        </section><!--button_zone-->
+
+    </div><!--Contents-->
+
+</div><!--wrap_main-->
+
+<script type="text/javascript" src="../js/after.js"></script>
+</body>
+
+</html>

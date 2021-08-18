@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+    <defs>
+        <style>
+            .cls-3{fill:none}
+        </style>
+    </defs>
+    <g id="그룹_2596" transform="translate(-165 -401)">
+        <g id="그룹_2187" transform="translate(3 -161)">
+            <g id="그룹_2186" transform="translate(164 564)">
+                <g id="타원_272" fill="none" stroke="#a3a3a3">
+                    <circle cx="13" cy="13" r="13" stroke="none"/>
+                    <circle cx="13" cy="13" r="12.5" class="cls-3"/>
+                </g>
+            </g>
+            <path id="Shape_725_copy" fill="none" stroke="#a3a3a3" d="M4.465 4.4L.06 0l4.4 4.4L8.758.112 4.465 4.4l4.4 4.4-4.4-4.4L0 8.87z" transform="rotate(45 -600.545 498.747)"/>
+        </g>
+        <path id="사각형_2109" d="M0 0H30V30H0z" class="cls-3" transform="translate(165 401)"/>
+    </g>
+</svg>

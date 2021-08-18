@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type"  content="text/html;charset=utf-8"/> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Wellcome payments</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" />
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<link href='https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="../css/style_well.css" />
+
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/jquery.bpopup.min.js"></script>
+<script type="text/javascript" src="../js/com_ui.js"></script>
+</head>
+
+<body>
+
+<div class="wrap">
+    
+    <div class="log_Contents">
+
+        <section class="login_conts">
+            <div class="greetings">
+                <h1 class="glad">
+                    안녕하세요 <br>
+                    <span class="big">웰컴페이</span>입니다.
+                </h1>
+                <p>웰컴페이 서비스 이용을 위해 로그인 해주세요.</p>
+            </div><!--greetings-->
+
+            <article class="form_group">
+                <div class="put_group">      
+                    <input type="text" class="req_put login_put not" value="Welcome1" required>
+                    <label class="req_bel">
+                        아이디
+                    </label>
+                    <div class="attention attent_not"> 
+                        <span class="attent_txt">
+                            <span class="star">*</span>
+                            아이디를 입력해 주세요.
+                        </span>
+                    </div><!--attent_not-->
+                </div><!--put_group-->
+                <div class="put_group">      
+                    <input type="password" class="req_put login_put not" value="12345678" required>
+                    <label class="req_bel">
+                        비밀번호
+                    </label>
+                    <div class="attention attent_not">
+                        <span class="attent_txt">
+                            <span class="star">*</span>
+                            비밀번호를 입력해 주세요.
+                        </span>
+                    </div><!--attent_not-->
+                </div><!--put_group-->
+                <div class="log_doub">
+                    <div class="child_agree">
+                        <span class="agrcon_check">
+                            <img class="chline" src="../images/sv_bold_check.svg" />
+                            <img class="chline_on" src="../images/sv_bold_check_on.svg" />
+                        </span>
+                        <span class="attent_txt">
+                            아이디 저장
+                        </span>
+                    </div>
+                    <div class="child_agree">
+                        <span class="agrcon_check">
+                            <img class="chline" src="../images/sv_bold_check.svg" />
+                            <img class="chline_on" src="../images/sv_bold_check_on.svg" />
+                        </span>
+                        <span class="attent_txt">
+                            자동로그인
+                        </span>
+                    </div>
+                </div><!--log_doub-->
+                <button type="button" class="button on" onclick="log_pop1();">
+                    로그인
+                </button>
+            </article><!--form_group-->
+
+            <article class="login_srch">
+                <a href="../search/srch_id.html">아이디 찾기</a>
+                <span class="pipe">|</span>
+                <a href="../search/srch_pw.html">비밀번호 변경</a>
+                <span class="pipe">|</span>
+                <a href="../join/join01.html">회원가입</a>
+            </article><!--login_srch-->
+
+            <article class="login_social">
+                <div class="log_social">
+                    <a class="log_link link_welcome">
+                        <img class="mark" src="../images/thumb_welb.png" />
+                    </a>
+                    <span class="link_word">웰뱅</span>
+                </div><!--log_social-->    
+                <div class="log_social">
+                    <a class="log_link link_kakao">
+                        <img class="mark" src="../images/thumb_kakao.png" />
+                    </a>
+                    <span class="link_word">카카오</span>
+                </div><!--log_social-->
+                <div class="log_social">
+                    <a class="log_link link_naver">
+                        <img class="mark" src="../images/thumb_naver.png" />
+                    </a>
+                    <span class="link_word">네이버</span>
+                </div><!--log_social-->
+            </article><!--login_social-->
+
+            <div class="gr_request bott">
+                <a class="link_block">다른 로그인 방식 선택</a>
+            </div><!--gr_request-->
+
+        </section><!--login_conts-->
+            
+    </div><!--log_Contents-->
+
+</div><!--wrap-->
+
+<!-- 팝업 -->
+<script>
+    function log_pop1() {	
+		$(".inspect_Pop04").bPopup();
+	}
+</script>
+
+<div class="layer_pop inspect_Pop04">
+	<div class="modal_body">
+		<div class="pop_top">
+            <h1>로그인 실패</h1>
+        </div>
+        <div class="pop_cont">
+            <p class="pop_text">
+                일치하는 정보가 없습니다.<br>
+                입력한 내용을 확인해 주세요.
+            </p>
+        </div>
+        <button type="button" class="btn_pop b-close">확인</button>
+	</div><!-- modal_body -->
+</div><!-- layer_pop -->
+<!-- 팝업 End -->
+
+<script type="text/javascript" src="../js/after.js"></script>
+</body>
+
+</html>

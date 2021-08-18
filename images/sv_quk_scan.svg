@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <style>
+            .cls-2{fill:#222}
+        </style>
+    </defs>
+    <g id="그룹_4618" transform="translate(-160 -588)">
+        <path id="사각형_2073" fill="none" d="M0 0H40V40H0z" transform="translate(160 588)"/>
+        <g id="그룹_3890" transform="translate(164.99 592.393)">
+            <path id="패스_5015" d="M24.264 6.26h-3.739V10h3.739zm-.935 1.869v.935H21.46V7.195h1.869z" class="cls-2" transform="translate(-1.242)"/>
+            <path id="패스_5016" d="M10.264 6.26H6.525V10h3.739zm-.935 1.869v.935H7.46V7.195h1.869z" class="cls-2" transform="translate(-.327)"/>
+            <path id="패스_5017" d="M23.525 20.2v.935h.935V19.26h-.935z" class="cls-2" transform="translate(-1.437 -.849)"/>
+            <path id="패스_5018" d="M6.525 26h3.739v-3.74H6.525zm.935-1.869v-.935h1.869v1.869H7.46z" class="cls-2" transform="translate(-.327 -1.045)"/>
+            <path id="패스_5019" d="M23.918 15.292A1.378 1.378 0 1 0 25.3 16.67a1.378 1.378 0 0 0-1.382-1.378z" class="cls-2" transform="translate(-1.373 -.59)"/>
+            <path id="패스_5020" d="M7.46 12.8h1.87v.935h.935V12.8h2.8v.935H14v.935h2.8v-.935h-1.862V12.8H14V7.2h1.869v3.739h.935v2.8h1.869v.935h1.869v-.935h1.869v-1.871h-1.865v.932h-1.87v-.935h-.935V10h-.935V7.2h.935v-.94h-5.607v.94h.935v3.739h-.935v.935H6.525v1.869h.935z" class="cls-2" transform="translate(-.327)"/>
+            <rect id="사각형_2517" width="1.309" class="cls-2" transform="translate(21.163 20.658)"/>
+            <path id="패스_5021" d="M20.546 20.13l-.011-1.869h-1.859v.939h.935v1.869h-1.869v-.939h-.935v-.93h.935v-.94H6.525v1.87h.935v-.93h1.87v.935h.935V19.2h1.869v5.6h.935v-1.866H14V22h-.935v-.935H14v-.935h-.935v-.93H14v.935h.935V19.2h.935v.935h-.935v.935h1.869V22h-1.866v.935h.935V24.8H14v.935h4.673V24.8h-1.866v-1.866h.935V22h1.869v3.739h3.739V24.8h-2.8v-3.736h.935v-.934z" class="cls-2" transform="translate(-.327 -.784)"/>
+            <path id="사각형_2518" d="M0 0H2.826V0.935H0z" class="cls-2" transform="translate(24.881 15.612)"/>
+            <path id="사각형_2519" d="M0 0H18.694V0.935H0z" class="cls-2" transform="translate(1.514 15.612)"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type"  content="text/html;charset=utf-8"/> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Wellcome payments</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" />
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<link href='https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="../css/swiper.min.css">
+<link rel="stylesheet" type="text/css" href="../css/style_well.css" />
+
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/jquery.bpopup.min.js"></script>
+<script type="text/javascript" src="../js/com_ui.js"></script>
+</head>
+
+<body>
+
+<div class="wrap_main">
+    
+    <div class="Contents sub01 flx_col_bet in_pdb">
+
+        <section class="main_top">
+            <article class="main_top_center"> 
+                <p class="go_back">
+                    <a href="#" onclick="moveBack();">
+                        <img class="img_back" src="../images/sv_arr_back.svg" />
+                    </a>
+                </p>
+                <div class="left_top_title">
+                    <h1 class="fs03">충전하기</h1>
+                </div>
+                <div class="top_right">
+                    <div class="top_gift">
+                        <span class="top_count ff_robo">23</span>
+                        <a href="../main/gift01.html"></a>
+                    </div>
+                    <div class="top_alarm">
+                        <span class="top_count ff_robo">1</span>
+                        <a href="../main/alarm01.html"></a>
+                    </div>
+                </div><!--top_right-->
+            </article><!--main_top_center-->
+        </section>
+
+        <section class="sub_conts">
+            <p class="sign_pull swipe-detector">
+                <img src="../images/sv_pull.svg" />
+            </p>
+        
+            <article class="bg_graphic">
+                <div class="grmenu_center">
+                    <a class="grlink" href="../charge/simple.html">
+                        <span>간편충전</span>
+                    </a>
+                    <a class="grlink" href="../charge/private01.html">
+                        <span>전용계좌</span>
+                    </a>
+                    <a class="grlink on" href="../charge/auto.html">
+                        <span>자동충전</span>
+                    </a>
+                    <a class="grlink" href="../charge/normal01.html">
+                        <span>일반충전</span>
+                    </a>
+                </div>
+            </article><!--bg_graphic-->
+
+            <article class="sub_contents">
+
+                <div class="charge_cont">
+
+                    <form>
+                        <label class="auto_bel ing" for="autoContact_use">
+                            <dl class="auto_dl">
+                                <dt>
+                                    <span class="auto_check on">
+                                        <img class="ic_radio" src="../images/sv_radio.svg" />
+                                        <img class="ic_radio_on" src="../images/sv_radio_on.svg" />
+                                    </span>
+                                    <span class="auto_tlt">자동충전 이용 안함</span>
+                                </dt>
+                            </dl>
+                        </label>
+
+                        <label class="auto_bel auto_bel_add" for="autoContact01">
+                            <dl class="auto_dl">
+                                <dt>
+                                    <span class="auto_check">
+                                        <img class="ic_radio" src="../images/sv_radio.svg" />
+                                        <img class="ic_radio_on" src="../images/sv_radio_on.svg" />
+                                    </span>
+                                    <span class="auto_tlt">웰컴머니 잔액이</span>
+                                </dt>
+                                <dd>
+                                    <p class="dd_line">
+                                        <input type="text" class="dd_put ff_robo" placeholder="1~200">
+                                        <span class="dd_txt"><span class="big">만원</span>이하일 때</span>
+                                    </p>
+                                    <p class="dd_line">
+                                        <input type="text" class="dd_put ff_robo" placeholder="1~200">
+                                        <span class="dd_txt"><span class="big">만원</span>충전합니다</span>
+                                    </p>
+                                </dd>
+                            </dl>
+                        </label>
+
+                        <label class="auto_bel auto_bel_add" for="autoContact02">
+                            <dl class="auto_dl">
+                                <dt>
+                                    <span class="auto_check">
+                                        <img class="ic_radio" src="../images/sv_radio.svg" />
+                                        <img class="ic_radio_on" src="../images/sv_radio_on.svg" />
+                                    </span>
+                                    <span class="auto_tlt">매월</span>
+                                </dt>
+                                <dd>
+                                    <p class="dd_line">
+                                        <select class="day_select">
+                                            <option value="0">선택</option>
+                                            <option value="">1일</option>
+                                            <option value="">5일</option>
+                                            <option value="">10일</option>
+                                            <option value="">15일</option>
+                                            <option value="">20일</option>
+                                            <option value="">25일</option>
+                                        </select>
+                                        <span class="dd_txt"><span class="big p-0">일</span>이되면</span>
+                                    </p>
+                                    <p class="dd_line">
+                                        <input type="text" class="dd_put ff_robo" placeholder="1~200">
+                                        <span class="dd_txt"><span class="big">만원</span>충전합니다</span>
+                                    </p>
+                                </dd>
+                            </dl>
+                        </label>
+
+                        <div class="way_cont">
+                            <div class="way_top">
+                                <p class="terms_title m-b-0">사용할 결제 수단</p>
+                                <p class="mange">관리</p>
+                            </div>
+                            <select class="way_select">
+                                <option value="">[계좌] 웰컴저축은행  123-456-******</option>
+                                <option value="">[계좌] 웰컴저축은행  123-456-******</option>
+                                <option value="">[계좌] 웰컴저축은행  123-456-******</option>
+                            </select>
+                        </div><!--way_cont-->
+                    </form>
+
+                </div><!--charge_cont-->
+
+            </article><!--sub_contents-->
+        </section><!--sub_conts-->
+
+        <section class="button_zone">
+            <button type="button" class="button" onclick="set_pop1();">
+                설정하기
+            </button>
+        </section><!--button_zone-->
+
+    </div><!--Contents-->
+
+    <footer>
+        <section class="ft_wrap">
+            <div class="ft_btqr">
+                <span class="qr_wh_mark"></span>
+            </div>
+			<div class="ft_btcode">
+                <span class="qr_ft_cancel"></span>
+            </div>
+            <div class="ft_left">
+                <div class="ft_box">
+                    <a href="../main/main.html">
+						<div class="ft_center">
+							<span class="ft_icon">
+								<img class="ic_foot" src="../images/ft_home.svg" />
+								<img class="ic_foot_on" src="../images/ft_home_on.svg" />
+							</span>
+							<span class="ft_word">홈</span>
+						</div>
+                    </a>
+                </div>
+                <div class="ft_box">
+                    <a href="../charge/simple.html">
+						<div class="ft_center on">
+							<span class="ft_icon">
+								<img class="ic_foot" src="../images/ft_charge.svg" />
+								<img class="ic_foot_on" src="../images/ft_charge_on.svg" />
+							</span>
+							<span class="ft_word">충전</span>
+						</div>
+                    </a>
+                </div>
+            </div>
+            <div class="ft_cent">
+                <a href="../use/fix01.html">
+					<div class="ft_center">
+						<span class="ft_word">사용</span>
+					</div>
+                </a>
+            </div>
+            <div class="ft_right">
+                <div class="ft_box">
+                    <a href="../list/list01.html">
+						<div class="ft_center">
+							<span class="ft_icon">
+								<img class="ic_foot" src="../images/ft_list.svg" />
+								<img class="ic_foot_on" src="../images/ft_list_on.svg" />
+							</span>
+							<span class="ft_word">내역</span>
+						</div>
+                    </a>
+                </div>
+                <div class="ft_box">
+                    <a href="../more/more_main.html">
+						<div class="ft_center">
+							<span class="ft_icon">
+								<img class="ic_foot" src="../images/ft_etc.svg" />
+								<img class="ic_foot_on" src="../images/ft_etc_on.svg" />
+							</span>
+							<span class="ft_word">더보기</span>
+						</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </footer>
+	<section class="quick_wrap">
+		<div class="quick_in">
+			<article class="quk_zone">
+				<a href="../use/show01.html">
+					<div class="qukin">
+						<img src="../images/sv_quk_qr.svg" alt="QR코드 보여주기" />
+						<span class="quk_word">QR코드 보여주기</span>
+					</div>
+				</a>
+			</article>
+			<article class="quk_zone">
+				<a href="../use/fix01.html">
+					<div class="qukin">
+						<img src="../images/sv_quk_scan.svg" alt="QR코드 스캔" />
+						<span class="quk_word">QR코드 스캔</span>
+					</div>
+				</a>
+			</article>
+			<article class="quk_zone">
+				<a href="../use/barcode01.html">
+					<div class="qukin">
+						<img src="../images/sv_quk_barcode.svg" alt="바코드 보여주기" />
+						<span class="quk_word">바코드 보여주기</span>
+					</div>
+				</a>
+			</article>
+		</div><!--quick_in-->
+	</section><!--quick_wrap-->
+
+</div><!--wrap_main-->
+
+
+<!-- 팝업 -->
+<script>
+    function set_pop1() {	
+		$(".setting_Pop01").bPopup();
+	}
+</script>
+
+<div class="layer_pop accout_Pop02">
+	<div class="modal_body">
+		<div class="pop_top">
+            <h1>1만원부터 200만원까지 <br>충전가능합니다</h1>
+        </div>
+        <div class="pop_form">
+            <input type="text" class="pop_put" placeholder="충전금액 1만원 단위">
+            <p class="p_unit">만원</p> 
+        </div>
+        <div class="doub_wrap">
+            <button type="button" class="btn_pop btn_pop_cancel b-close">취소</button>
+            <button type="button" class="btn_pop b-close">확인</button>
+        </div>
+	</div><!-- modal_body -->
+</div><!-- layer_pop -->
+
+<div class="layer_pop accout_Pop03">
+	<div class="modal_body">
+		<div class="pop_top">
+            <h1>1일부터 31일까지 <br>충전가능합니다</h1>
+        </div>
+        <div class="pop_form">
+            <input type="text" class="pop_put" placeholder="(1~31 단위)">
+            <p class="p_unit">일</p> 
+        </div>
+        <div class="doub_wrap">
+            <button type="button" class="btn_pop btn_pop_cancel b-close">취소</button>
+            <button type="button" class="btn_pop b-close">확인</button>
+        </div>
+	</div><!-- modal_body -->
+</div><!-- layer_pop -->
+
+<div class="layer_pop setting_Pop01">
+	<div class="modal_body">
+		<div class="pop_top">
+            <h1>자동충전 설정완료</h1>
+        </div>
+        <div class="pop_cont">
+            <p class="pop_text txt">
+                입력하신 정보로 자동충전이 설정되었습니다.
+            </p>
+        </div>
+        <button type="button" class="btn_pop b-close">확인</button>
+	</div><!-- modal_body -->
+</div><!-- layer_pop -->
+<!-- 팝업 End -->
+
+<script type="text/javascript" src="../js/after.js"></script>
+<script type="text/javascript" src="../js/swipeDown.js"></script>
+</body>
+
+</html>

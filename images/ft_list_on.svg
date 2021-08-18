@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+    <defs>
+        <style>
+            .cls-2{fill:#ea002c}.cls-3{fill:#fff}
+        </style>
+    </defs>
+    <g id="그룹_4656" transform="translate(-240.001 -701.475)">
+        <path id="사각형_2127" fill="none" d="M0 0H32V32H0z" opacity="0.3" transform="translate(240.001 701.475)"/>
+        <rect id="사각형_2466" width="20" height="22" class="cls-2" rx="4" transform="translate(246 705.748)"/>
+        <g id="사각형_461" transform="translate(246.001 705.748)">
+            <path id="패스_1805" d="M19.807 2203.354h-13a3.5 3.5 0 0 1-3.5-3.5v-15a3.5 3.5 0 0 1 3.5-3.5h13a3.5 3.5 0 0 1 3.5 3.5v15a3.5 3.5 0 0 1-3.5 3.5zm-13-21a2.5 2.5 0 0 0-2.5 2.5v15a2.5 2.5 0 0 0 2.5 2.5h13a2.5 2.5 0 0 0 2.5-2.5v-15a2.5 2.5 0 0 0-2.5-2.5z" class="cls-2" transform="translate(-3.307 -2181.354)"/>
+        </g>
+        <g id="선_17" transform="translate(251.083 711.475)">
+            <path id="패스_1806" d="M9.849 2188.081h-.96a.5.5 0 0 1 0-1h.96a.5.5 0 0 1 0 1z" class="cls-3" transform="translate(-8.389 -2187.081)"/>
+        </g>
+        <g id="선_18" transform="translate(254.593 711.475)">
+            <path id="패스_1807" d="M19.116 2188.081H12.4a.5.5 0 0 1 0-1h6.717a.5.5 0 0 1 0 1z" class="cls-3" transform="translate(-11.899 -2187.081)"/>
+        </g>
+        <g id="선_19" transform="translate(251.083 716.248)">
+            <path id="패스_1808" d="M9.849 2192.854h-.96a.5.5 0 0 1 0-1h.96a.5.5 0 0 1 0 1z" class="cls-3" transform="translate(-8.389 -2191.854)"/>
+        </g>
+        <g id="선_20" transform="translate(254.593 716.248)">
+            <path id="패스_1809" d="M19.116 2192.854H12.4a.5.5 0 0 1 0-1h6.717a.5.5 0 0 1 0 1z" class="cls-3" transform="translate(-11.899 -2191.854)"/>
+        </g>
+        <g id="선_21" transform="translate(251.083 721.02)">
+            <path id="패스_1810" d="M9.849 2197.626h-.96a.5.5 0 0 1 0-1h.96a.5.5 0 0 1 0 1z" class="cls-3" transform="translate(-8.389 -2196.626)"/>
+        </g>
+        <g id="선_22" transform="translate(254.593 721.02)">
+            <path id="패스_1811" d="M19.116 2197.626H12.4a.5.5 0 0 1 0-1h6.717a.5.5 0 0 1 0 1z" class="cls-3" transform="translate(-11.899 -2196.626)"/>
+        </g>
+    </g>
+</svg>

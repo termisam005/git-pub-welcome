@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type"  content="text/html;charset=utf-8"/> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Wellcome payments</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" />
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<link href='https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="../css/style_well.css" />
+
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/com_ui.js"></script>
+
+</head>
+
+<body>
+
+<div class="wrap_main">
+    
+    <div class="Contents sub flx_col_bet in_pdb">
+
+        <section class="the_top sub_top">
+            <article class="top_center">
+                <p class="go_back">
+                    <a href="#" onclick="moveBack();">
+                        <img class="img_back" src="../images/sv_arr_back.svg" />
+                    </a>
+                </p>
+                <div class="top_title">
+                    <h1 class="fs03">당겨서 사용하기</h1>
+                </div>
+                <div class="top_right">
+                    <div class="top_gift">
+                        <span class="top_count ff_robo">23</span>
+                        <a href="../main/gift01.html"></a>
+                    </div>
+                    <div class="top_alarm">
+                        <span class="top_count ff_robo">1</span>
+                        <a href="../main/alarm01.html"></a>
+                    </div>
+                </div><!--top_right-->
+            </article><!--top_center-->
+        </section>
+
+        <section class="sub_conts">
+            <article class="box_possible m-b-25">
+                <p class="bt_poss_etc"></p>
+                <div class="poss_result flx_cent_bet">
+                    <p class="poss_what">당겨쓰기 가능금액</p>
+                    <h3 class="poss_money">
+                        <span class="ff_robo">24,750</span><span class="unit">원</span>
+                    </h3>
+                </div>
+            </article><!--box_possible-->
+
+            <article class="use_box"> 
+                <div class="use_line">
+                    <dl class="uline_left">
+                        <dt class="fs00 m-b-2">아이템매니아</dt>
+                        <dd>
+                            <span class="dpblock">전주시 덕진구 가리내로 56 아이엠 ...</span>
+                            <span class="dpblock">402-81-50705</span>
+                        </dd>
+                    </dl>
+                    <p class="uline_member tar">
+                        <span class="dpblock">조성원</span>
+                        <span class="dpblock">1544-8278</span>
+                    </p>
+                </div><!--use_line-->   
+                <dl class="record_dl box use">
+                    <dt>
+                        <p class="fs01">결제금액</p>
+                    </dt>
+                    <dd>
+                        <div class="rec_totall use">
+                            <span class="ff_robo">5,000</span>
+                            <span class="unit">원</span>
+                        </div>
+                    </dd>
+                </dl><!--record_dl-->
+            </article><!--use_box-->
+
+            <div class="use_form">
+                <dl class="charge_dl use_dl">
+                    <dt class="fs01">사용금액</dt>
+                    <dd>
+                        <div class="use_money ff_robo">5,000</div>
+                        <p class="use_unit fs02">원</p>
+                    </dd>
+                </dl>
+            </div><!--use_form-->
+            <div class="use_form" id="using_Form">
+                <dl class="charge_dl use_dl">
+                    <dt class="fs01">당겨쓰기</dt>
+                    <dd>
+                        <input type="text" class="charge_put pull_put ff_robo" value="" placeholder="금액">
+                        <p class="put_unit useint">원</p>
+                    </dd>
+                </dl>
+            </div><!--use_form-->
+            <div class="use_result">
+                <span>당겨쓰기 가능</span>
+                <span class="ff_robo m-l-3">4,500</span>
+                <span>원</span>
+            </div><!--use_result-->
+
+            <article class="progress_wrap">
+                <div class="bar scrubber">
+                    <div class="empty"></div>
+                    <div class="bar progress white"></div>
+                <div><!--scrubber-->
+            </article>
+        </section><!--sub_conts-->
+
+        <section class="button_zone">
+            <button type="button" class="button on" onclick="location.href='../use/fix03.html'">
+                결제하기
+            </button>
+        </section>
+
+    </div><!--Contents-->
+
+    <footer>
+        <section class="ft_wrap">
+            <div class="ft_btqr">
+                <span class="qr_wh_mark"></span>
+            </div>
+			<div class="ft_btcode">
+                <span class="qr_ft_cancel"></span>
+            </div>
+            <div class="ft_left">
+                <div class="ft_box">
+                    <a href="../main/main.html">
+						<div class="ft_center">
+							<span class="ft_icon">
+								<img class="ic_foot" src="../images/ft_home.svg" />
+								<img class="ic_foot_on" src="../images/ft_home_on.svg" />
+							</span>
+							<span class="ft_word">홈</span>
+						</div>
+                    </a>
+                </div>
+                <div class="ft_box">
+                    <a href="../charge/simple.html">
+						<div class="ft_center">
+							<span class="ft_icon">
+								<img class="ic_foot" src="../images/ft_charge.svg" />
+								<img class="ic_foot_on" src="../images/ft_charge_on.svg" />
+							</span>
+							<span class="ft_word">충전</span>
+						</div>
+                    </a>
+                </div>
+            </div>
+            <div class="ft_cent">
+                <a href="../use/qr_footer.html">
+					<div class="ft_center on">
+						<span class="ft_word">사용</span>
+					</div>
+                </a>
+            </div>
+            <div class="ft_right">
+                <div class="ft_box">
+                    <a href="../list/list01.html">
+					 	<div class="ft_center">
+							<span class="ft_icon">
+								<img class="ic_foot" src="../images/ft_list.svg" />
+								<img class="ic_foot_on" src="../images/ft_list_on.svg" />
+							</span>
+							<span class="ft_word">내역</span>
+						</div>
+                    </a>
+                </div>
+                <div class="ft_box">
+                    <a href="../more/more_main.html">
+						<div class="ft_center">
+							<span class="ft_icon">
+								<img class="ic_foot" src="../images/ft_etc.svg" />
+								<img class="ic_foot_on" src="../images/ft_etc_on.svg" />
+							</span>
+							<span class="ft_word">더보기</span>
+						</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </footer>
+	<section class="quick_wrap">
+		<div class="quick_in">
+			<article class="quk_zone">
+				<a>
+					<div class="qukin">
+						<img src="../images/sv_quk_qr.svg" alt="QR코드 보여주기" />
+						<span class="quk_word">QR코드 보여주기</span>
+					</div>
+				</a>
+			</article>
+			<article class="quk_zone">
+				<a>
+					<div class="qukin">
+						<img src="../images/sv_quk_scan.svg" alt="QR코드 스캔" />
+						<span class="quk_word">QR코드 스캔</span>
+					</div>
+				</a>
+			</article>
+			<article class="quk_zone">
+				<a>
+					<div class="qukin">
+						<img src="../images/sv_quk_barcode.svg" alt="바코드 보여주기" />
+						<span class="quk_word">바코드 보여주기</span>
+					</div>
+				</a>
+			</article>
+		</div><!--quick_in-->
+	</section><!--quick_wrap-->
+
+</div><!--wrap_main-->
+
+
+<!-- progress bar -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>  
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/plugins/TextPlugin.min.js"></script> 
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script> 
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/utils/Draggable.min.js"></script>
+<script>
+var offsetLeft = $('.scrubber').offset().left;
+var scrubberWidth = 290;
+console.log(offsetLeft)
+
+TweenLite.set(".progress", {scaleX:0, transformOrigin:"left"});
+Draggable.create(".empty", {
+  type:"x",
+  
+  trigger:".scrubber",
+  bounds:".scrubber",
+  onPress:function(e) {
+    //move the target (".empty") based on where you clicked
+    TweenLite.set(this.target, {x:this.pointerX- offsetLeft});
+    //update Draggable's internal recording of where ".empty" is
+    this.update();
+    //stretch the progress bar
+    updateProgressBarScale(this);
+  },
+  onDrag:function() {
+    updateProgressBarScale(this); 
+  }
+})
+
+function updateProgressBarScale(theDraggable) {
+  var progress = theDraggable.x / scrubberWidth;
+  TweenLite.set(".progress", {scaleX:progress});
+  console.log(theDraggable.x + " / " + progress)
+}
+</script>
+<!-- progress bar End -->
+
+<script type="text/javascript" src="../js/after.js"></script>
+</body>
+
+</html>

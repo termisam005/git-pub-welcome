@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type"  content="text/html;charset=utf-8"/> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Wellcome payments</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" />
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<link href='https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="../css/style_well.css" />
+
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/com_ui.js"></script>
+</head>
+
+<body>
+
+<div class="wrap">
+    
+    <div class="Contents in_pdb flx_col_bet">
+        
+        <section class="the_top">
+            <article class="top_center">
+                <p class="go_back">
+                    <a href="#" onclick="moveBack();">
+                        <img class="img_back" src="../images/sv_arr_back.svg" />
+                    </a>
+                </p>
+                <div class="top_title">
+                    <h1 class="fs03">회원탈퇴</h1>
+                </div>
+            </article><!--top_center-->
+        </section>
+
+        <section class="join_conts">
+            <article class="form_group">
+                <div class="put_group">      
+                    <input type="password" class="req_put reqq01" required>
+                    <label class="req_bel">
+                        비밀번호 확인                                
+                    </label>
+                </div><!--put_group-->
+            </article><!--form_group-->
+            <div class="attention m-t-10">
+                <span class="the_feel">
+                    <img src="../images/icon_feel.png" alt="느낌표" />
+                </span>
+                <span class="attent_txt">
+                    로그인 계정의 비밀번호를 입력해 주세요.
+                </span>
+            </div>
+        </section>
+
+        <section class="button_zone">
+            <button type="button" class="button">
+                다음
+            </button>
+        </section>
+
+    </div><!--Contents-->
+
+</div><!--wrap-->
+
+
+<div class="modaling draw_Pop02">
+    <div class="modal_bg"></div>
+	<div class="modal_body ting">
+		<div class="pop_top">
+            <h1>회원탈퇴</h1>
+        </div>
+        <div class="pop_cont">
+            <p class="pop_text txt">
+                탈퇴가 완료되었습니다.<br/>
+                웰컴페이를 이용해 주셔서 감사합니다.
+            </p>
+        </div>
+        <button type="button" class="btn_pop b-close">확인</button>
+        <button type="button" class="btn_pop btn_pop_cancel b-close">취소</button>
+	</div><!-- modal_body -->
+</div><!--modaling-->
+
+<script>
+$(function(){
+    $(".reqq01").change(function(){
+       $(".button").addClass("on");
+    });
+    $(".button").click(function(){
+        if($(this).hasClass("on")){
+            drawalPop();
+        };
+    });
+});
+
+function drawalPop(){
+    var drawP02 = document.querySelector('.draw_Pop02');
+    drawP02.style.display = 'block';
+}
+</script>
+
+<script type="text/javascript" src="../js/after.js"></script>
+
+</body>
+
+</html>

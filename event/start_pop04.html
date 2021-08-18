@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type"  content="text/html;charset=utf-8"/> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Wellcome payments</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" />
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<link href='https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="../css/swiper.min.css">
+<link rel="stylesheet" type="text/css" href="../css/style_well.css" />
+
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/com_ui.js"></script>
+</head>
+
+<body>
+
+<div class="wrap_main"> 
+    <div class="Contents flx_col_bet in_pdb">
+    </div><!--Contents-->
+</div><!--wrap_main-->
+
+
+<!-- 팝업 -->
+<div id="startPop04" class="modaling">
+    <div class="modal_bg"></div>
+	<div class="modal_event">
+        <p class="popimg_cont">
+            <img src="../images/popimg_attend.png" alt="출석체크" />
+        </p>
+        <section class="evpop_foot">
+            <button type="button" class="button on">자세히 보기</button>
+        </section>
+        <div class="trans_doub">
+            <div class="today_check">
+                <img class="wind" src="../images/sv_check_trans.svg" alt="체크" />
+                <img class="wind_on" src="../images/sv_check_trans_on.svg" alt="체크온" />
+                <span class="txt">
+                    오늘 이 창을 열지 않음
+                </span>
+            </div><!--today_check-->
+            <p class="evpop_close">닫기</p>
+        </div><!--trans_doub-->
+	</div><!-- modal_event -->
+    <div class="modal_bottom">
+        뒤로가기를 한 번 더 누르면 종료됩니다. 
+    </div><!--modal_bottom-->
+</div><!--modaling-->
+
+<script>
+    function startEvent(){
+        var modalEvent = document.getElementById('startPop04');
+        modalEvent.style.display = "block";
+        var closer = document.querySelector('.evpop_close');
+        closer.onclick = function(){
+            modalEvent.style.display = 'none';
+        };
+        var closebg = document.querySelector('.modal_bg');
+        closebg.onclick = function(){
+            modalEvent.style.display = 'none';
+        };
+    }
+    startEvent();
+</script>
+<!-- 팝업 End -->
+
+<script type="text/javascript" src="../js/after.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46">
+    <defs>
+        <style>
+            .cls-1{fill:#222}.cls-2{fill:#fff;stroke:#ff7a00}.cls-3{fill:none}.cls-4{stroke:none}
+        </style>
+    </defs>
+    <g id="그룹_4755" transform="translate(-10 -212)">
+        <g id="그룹_4754">
+            <g id="그룹_1860" transform="translate(23 214.664)">
+                <path id="패스_2127" d="M-69.813 140.292h-15.1a2.8 2.8 0 0 0-2.8 2.8v30.192a2.8 2.8 0 0 0 2.8 2.8h15.1a2.8 2.8 0 0 0 2.8-2.8v-30.193a2.8 2.8 0 0 0-2.8-2.799zm-15.1 1.069h15.1a1.732 1.732 0 0 1 1.73 1.73v1.73h-18.556v-1.73a1.732 1.732 0 0 1 1.73-1.73zm16.826 4.529v23.84h-18.552v-23.84zm-1.73 29.123h-15.1a1.732 1.732 0 0 1-1.73-1.73V170.8h18.556v2.485a1.732 1.732 0 0 1-1.722 1.728z" class="cls-1" transform="translate(87.708 -140.292)"/>
+                <path id="사각형_1820" d="M0 0H3.019V1.07H0z" class="cls-1" transform="translate(8.837 31.701)"/>
+            </g>
+            <g id="그룹_4753">
+                <g id="사각형_2567" class="cls-2" transform="translate(27 236)">
+                    <rect width="3" height="3" class="cls-4" rx="1"/>
+                    <rect width="2" height="2" x=".5" y=".5" class="cls-3" rx=".5"/>
+                </g>
+                <g id="그룹_4752">
+                    <g id="사각형_2560" class="cls-2" transform="translate(27 226)">
+                        <rect width="3" height="3" class="cls-4" rx="1"/>
+                        <rect width="2" height="2" x=".5" y=".5" class="cls-3" rx=".5"/>
+                    </g>
+                    <g id="사각형_2564" class="cls-2" transform="translate(27 231)">
+                        <rect width="3" height="3" class="cls-4" rx="1"/>
+                        <rect width="2" height="2" x=".5" y=".5" class="cls-3" rx=".5"/>
+                    </g>
+                    <g id="사각형_2561" class="cls-2" transform="translate(32 226)">
+                        <rect width="3" height="3" class="cls-4" rx="1"/>
+                        <rect width="2" height="2" x=".5" y=".5" class="cls-3" rx=".5"/>
+                    </g>
+                    <g id="사각형_2563" class="cls-2" transform="translate(32 231)">
+                        <rect width="3" height="3" class="cls-4" rx="1"/>
+                        <rect width="2" height="2" x=".5" y=".5" class="cls-3" rx=".5"/>
+                    </g>
+                    <g id="사각형_2566" class="cls-2" transform="translate(32 236)">
+                        <rect width="3" height="3" class="cls-4" rx="1"/>
+                        <rect width="2" height="2" x=".5" y=".5" class="cls-3" rx=".5"/>
+                    </g>
+                    <g id="사각형_2562" class="cls-2" transform="translate(37 226)">
+                        <rect width="3" height="3" class="cls-4" rx="1"/>
+                        <rect width="2" height="2" x=".5" y=".5" class="cls-3" rx=".5"/>
+                    </g>
+                    <g id="사각형_2565" class="cls-2" transform="translate(37 231)">
+                        <rect width="3" height="3" class="cls-4" rx="1"/>
+                        <rect width="2" height="2" x=".5" y=".5" class="cls-3" rx=".5"/>
+                    </g>
+                    <g id="사각형_2568" class="cls-2" transform="translate(37 236)">
+                        <rect width="3" height="3" class="cls-4" rx="1"/>
+                        <rect width="2" height="2" x=".5" y=".5" class="cls-3" rx=".5"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <path id="사각형_2311" d="M0 0H46V46H0z" class="cls-3" transform="translate(10 212)"/>
+    </g>
+</svg>

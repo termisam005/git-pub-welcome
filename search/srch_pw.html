@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type"  content="text/html;charset=utf-8"/> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Wellcome payments</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" />
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<link href='https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="../css/style_well.css" />
+
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/jquery.bpopup.min.js"></script>
+<script type="text/javascript" src="../js/com_ui.js"></script>
+</head>
+
+<body>
+
+<div class="wrap">
+    
+    <div class="Contents flx_col_bet">
+        
+        <section class="the_top">
+            <article class="top_center">
+                <p class="go_back">
+                    <a href="#" onclick="moveBack();">
+                        <img class="img_back" src="../images/sv_arr_back.svg" />
+                    </a>
+                </p>
+                <div class="top_title">
+                    <h1 class="fs03">비밀번호 변경</h1>
+                </div>
+            </article><!--top_center-->
+        </section>
+
+        <section class="join_conts">
+            <article class="form_group">
+                <div class="put_group">      
+                    <input type="text" class="req_put reqq01" required>
+                    <label class="req_bel">
+                        아이디                                  
+                    </label>
+                </div><!--put_group-->
+                <div class="put_group">
+                    <input type="text" class="req_put reqq02" required>
+                    <label class="req_bel">
+                        이름
+                    </label>
+                </div><!--put_group-->
+                <div class="attention">
+                    <span class="the_feel">
+                        <img src="../images/icon_feel.png" />
+                    </span>
+                    <span class="attent_txt">
+                        아이디를 모르는 경우 아래 링크를 통해 아이디를 찾아주세요.
+                    </span>
+                </div>
+            </article><!--form_group-->
+        </section>
+
+        <section class="button_zone">
+            <div class="gr_request">
+                <a class="link_block" href="../search/srch_id.html">아이디 찾기</a>
+            </div>
+            <button type="button" class="button on" onclick="srch_pop1();">
+                다음
+            </button>
+        </section>
+
+    </div><!--Contents-->
+
+</div><!--wrap-->
+
+<!-- 팝업 -->
+<script>
+    function srch_pop1() {	
+		$(".inspect_Pop06").bPopup();
+	}
+</script>
+
+<div class="layer_pop inspect_Pop06">
+	<div class="modal_body">
+		<div class="pop_top">
+            <h1>본인인증</h1>
+        </div>
+        <div class="pop_cont">
+            <p class="pop_text">
+                비밀번호를 재설정하기 위하여<br>
+                본인인증을 진행합니다.
+            </p>
+        </div>
+        <button type="button" class="btn_pop b-close" onclick="location.href='../search/srch_certify.html'">확인</button>
+	</div><!-- modal_body -->
+</div><!-- layer_pop -->
+<!-- 팝업 End -->
+
+<script type="text/javascript" src="../js/after.js"></script>
+</body>
+
+</html>

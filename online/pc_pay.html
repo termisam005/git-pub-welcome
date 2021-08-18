@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>온라인 PC결제</title>
+<link href='https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="./with/jquery.min.js"></script>
+
+<style>
+@import url('https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css');
+
+*{box-sizing:border-box;}
+body {
+    margin:0px;padding:0px;
+    background:#fff;
+    font-family:'Spoqa Han Sans Neo',"Malgun Gothic","맑은 고딕","Helvetica","AppleGothic",sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-weight:400;
+    line-height: 1.4;
+    color: #595959;
+    letter-spacing:-0.5px;
+}
+.modal_back{
+    display: none;
+    transition: 0.3s all;
+    position: fixed;
+    z-index: 300;
+    padding: 0px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+.modal_bg {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: rgba(0,0,0,0.7);
+}
+.modal_pcbody{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 500;
+    width: 420px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+.mod_pcconts{
+    width: 100%;
+    height: 100%;
+    padding:35px 20px;
+    position: relative;
+}
+.mod_close{
+    position: absolute;
+    right: 12px;
+    top:12px;
+    margin: 0px;
+    cursor: pointer;
+}
+.pc_title{
+    width: 100%;
+    margin: 28px 0px 32px;
+}
+.pc_title .title_text{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pc_title .title_text span{
+    font-size: 29px;
+    font-weight: 400;
+    color: #222;
+}
+.pc_title .title_txt{
+    margin: 0px;
+    font-size: 18px;
+    color: #222;
+    line-height: 1.5;
+}
+.qr_bottom{
+    height: 20px;
+    margin: 15px 0px;
+}
+.qr_time,.qr_over{
+    margin: 0px;
+}
+.qr_time span,.qr_over span{
+    color: #ff7a00;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0px 1px;
+}
+.qr_time .space{
+    margin: 0px 1px;
+}
+.stepping{
+    position: relative;
+    width: 100%;
+    margin:50px 0px 25px;
+    padding:28px 0px 50px;
+}
+.stepping:before {
+    content: "";
+    display: block;
+    width: 266px;
+    margin: 0 auto;
+    height:4px;
+    background-color: #e5e5e5;
+}
+.stepping .stepin{
+    position: absolute;
+    left: 0px;
+    top:0px;
+    width: 100%;
+    height: 100%;
+}
+.st_posrel{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.stepby_dl{
+    flex: 1;
+    margin: 0px;
+    text-align: center;
+    position: relative;
+}
+.stepby_dl:before{
+    content: "";
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    background: #595959;
+    border-radius: 100%;
+    position: absolute;
+    left: 50%;
+    margin-left:-7px;
+    top:23px;
+    z-index: 10;
+}
+.stepby_dl dt{
+    width: 100%;
+    height: 28px;
+    font-size: 11px;
+    font-weight: 500;
+    color: #595959;
+    letter-spacing: 0px;
+}
+.stepby_dl dd{
+    margin: 0px;
+    font-size: 14px;
+    padding: 18px 0px 0px;
+}
+.qr_over{
+    display: none;
+}
+.qr_img_box{
+    position: relative;
+    text-align: center;
+}
+.reload_pc{
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    background: url('./with/reload_big.png') no-repeat center center;
+    background-size: 100% auto;
+    z-index: 10;
+    left: 50%;
+    top: 50%;
+    margin-left: -34px;
+    margin-top: -34px;
+    display: none;
+}
+.qr_img_box.end img{
+    opacity: 0.2;
+}
+.qr_img_box.end .reload_pc{
+    display: block;
+}
+</style>
+
+</head>
+
+<body>
+    
+<!-- 팝업 -->
+<div id="pcModal01" class="modal_back">
+    <div class="modal_bg"></div>
+    <div class="modal_pcbody">
+        <section class="mod_pcconts">
+            <p class="mod_close">
+                <img src="./with/sv_pc_close.svg" alt="닫기" />
+            </p>
+            <img src="./with/pc_mark.png" alt="웰컴페이" />
+            <article class="pc_title">
+                <h1 class="title_text">
+                    <img src="./with/welpay.png" alt="웰컴페이" />
+                    <span>로 QR 결제하기</span>
+                </h1>
+                <p class="title_txt">
+                    웰컴페이 앱에서 QR 코드를 스캔해 주세요.
+                </p>
+            </article>
+            <article class="qr_conts">
+                <div class="qr_img_box">
+                    <p class="reload_pc"></p>
+                    <img src="./with/pc_qr_ex.png" alt="qr코드" />
+                </div>
+                <div class="qr_bottom">
+                    <p class="qr_time">
+                        <!-- <span>남은시간</span>
+                        <span class="space">:</span>
+                        <span>3</span>
+                        <span>초</span> -->
+                    </p>
+                    <p class="qr_over">
+                        <span>시간초과</span>
+                    </p>
+                </div><!--qr_bottom-->
+            </article>
+            <article class="stepping">
+                <div class="stepin">
+                    <div class="st_posrel">
+                        <dl class="stepby_dl">
+                            <dt>Step 1</dt>
+                            <dd>
+                                웰컴페이 앱에서<br/>사용하기 선택
+                            </dd>
+                        </dl>
+                        <dl class="stepby_dl">
+                            <dt>Step 2</dt>
+                            <dd>
+                                QR 코드<br>스캔
+                            </dd>
+                        </dl>
+                        <dl class="stepby_dl">
+                            <dt>Step 3</dt>
+                            <dd>
+                                결제 완료
+                            </dd>
+                        </dl>
+                    </div><!--st_posrel-->
+                </div>
+            </article>
+        </section><!--mod_pcconts-->
+    </div>
+</div>
+
+<script>
+    function online_pop(){
+        var modal_pc = document.querySelector('#pcModal01');
+        modal_pc.style.display = "block";
+        var closer = document.querySelector('.mod_close');
+        closer.onclick = function(){
+            modal_pc.style.display = 'none';
+        };
+        var closebg = document.querySelector('.modal_bg');
+        closebg.onclick= function(){
+            modal_pc.style.display = 'none';
+        };
+    };
+    online_pop();
+
+    function setCountDown(){
+        var count = 300;
+        var countdown = setInterval(function(){
+        $("p.qr_time").html("<span>남은시간</span>"+"<span>:</span>"+"<span>"+count+"</span>"+"<span>초</span>");
+            if (count == 0) {
+                clearInterval(countdown);
+                    $('.qr_time').css("display","none");
+                    $('.qr_over').css("display","block");
+                    $('.qr_img_box').addClass("end");
+                }
+            count--;
+        }, 1000);
+    }
+    setCountDown();
+
+</script>
+
+</body>
+
+</html>

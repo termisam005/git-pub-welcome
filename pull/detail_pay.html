@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type"  content="text/html;charset=utf-8"/> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Wellcome payments</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" />
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<link href='https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="../css/style_well.css" />
+
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/com_ui.js"></script>
+</head>
+
+<body>
+
+<div class="wrap_main">
+    
+    <div class="Contents sub flx_col_bet in_pdb">
+
+        <section class="the_top sub_top">
+            <article class="top_center">
+                <p class="go_back">
+                    <a href="#" onclick="moveBack();">
+                        <img class="img_back" src="../images/sv_arr_back.svg" />
+                    </a>
+                </p>
+                <div class="top_title">
+                    <h1 class="fs03">미납금처리</h1>
+                </div>
+                <div class="top_right">
+                    <div class="top_gift">
+                        <span class="top_count ff_robo">23</span>
+                        <a href="../main/gift01.html"></a>
+                    </div>
+                    <div class="top_alarm">
+                        <span class="top_count ff_robo">1</span>
+                        <a href="../main/alarm01.html"></a>
+                    </div>
+                </div><!--top_right-->
+            </article><!--top_center-->
+        </section>
+
+        <section class="sub_conts">
+            <article class="receipt_box m-t-10 m-b-20">
+                <dl class="record_dl box">
+                    <dt>
+                        <p class="fs02">당겨쓴 금액</p>
+                    </dt>
+                    <dd>
+                        <div class="rec_totall">
+                            <span class="ff_robo">39,250</span>
+                            <span class="unit">원</span>
+                        </div>
+                    </dd>
+                </dl>
+                <div class="record_bottom">
+                    <div class="flx_line_bet pulline">
+                        <p class="fline_call ff_robo">
+                            2021.03.05
+                        </p>
+                        <p class="fline_rslt">
+                            <span class="ff_robo">39,250</span>
+                            <span>원</span>
+                        </p>
+                    </div>
+                </div><!--record_bottom-->
+            </article><!--receipt_box-->
+
+            <div class="way_cont m-t-10 m-b-20">
+                <div class="way_top">
+                    <p class="terms_title m-b-0">납부계좌 선택</p>
+                </div>
+                <select class="way_select btc">
+                    <option value="">웰컴저축은행  123-456-******</option>
+                    <option value="">웰컴저축은행  123-456-******</option>
+                    <option value="">웰컴저축은행  123-456-******</option>
+                </select>
+                <div class="attention m-t-15">
+                    <span class="the_feel">
+                        <img src="../images/icon_feel.png" />
+                    </span>
+                    <span class="attent_txt">
+                        웰컴머니를 충전하여 결재 시, 수수료가 발생하지 않습니다.
+                    </span>
+                </div>
+            </div><!--way_cont-->
+        </section><!--sub_conts-->
+
+        <section class="button_zone">
+            <button type="button" class="button on" onclick="location.href='../pull/detail_result.html'">
+                결제하기
+            </button>
+        </section>
+
+    </div><!--Contents-->
+
+</div><!--wrap_main-->
+
+
+<!-- 팝업 -->
+<!-- <div id="pullModal02" class="modaling">
+    <div class="modal_bg"></div>
+	<div class="modal_body ting">
+		<div class="pop_top">
+            <h1>내용을 확인해주세요</h1>
+        </div>
+        <div class="pop_cont">
+            <div class="measure_cont p-t-0">
+                <dl class="meas_dl">
+                    <dt>신청 계좌 :</dt>
+                    <dd>
+                        <span class="meas_word">웰컴디지털뱅크</span>
+                        <span class="meas_word">111-234-56789</span>
+                    </dd>
+                </dl>
+                <dl class="meas_dl">
+                    <dt>사용 머니 :</dt>
+                    <dd>
+                        <span class="meas_word">
+                            <span class="ff_robo">49,250</span><span class="m-l-2">원</span>
+                        </span>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+        <button type="button" class="btn_pop b-close" onclick="location.href='../pull/pay_result.html'">
+            결제하기
+        </button>
+        <button type="button" class="btn_pop btn_pop_cancel b-close">취소</button>
+	</div>
+</div>
+
+<script>
+    var modal02 = document.getElementById("pullModal02");
+    var btpop02 = document.getElementById("button_pull02");
+    btpop02.onclick = function() {
+        modal02.style.display = "block";
+    }
+    
+    $(function(){
+        $(".modal_bg").click(function(){
+            $(this).parents(".modaling").hide();
+        });
+        $(".b-close").click(function(){
+            $(".modaling").hide();
+        });
+    });
+</script> -->
+<!-- 팝업 End -->
+
+<script type="text/javascript" src="../js/after.js"></script>
+</body>
+
+</html>

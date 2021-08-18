@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type"  content="text/html;charset=utf-8"/> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Wellcome payments</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" />
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<link href='https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="../css/swiper.min.css">
+<link rel="stylesheet" type="text/css" href="../css/style_well.css" />
+
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/com_ui.js"></script>
+</head>
+
+<body>
+
+<div class="wrap_main">
+
+    <section class="the_top sub_top">
+        <article class="top_center">
+            <p class="go_back">
+                <a href="#" onclick="moveBack();">
+                    <img class="img_back" src="../images/sv_arr_back.svg" />
+                </a>
+            </p>
+            <div class="top_title">
+                <h1 class="fs03">포인트 내보내기</h1>
+            </div>
+        </article><!--top_center-->
+    </section>
+    
+    <div class="Contents sub in_pdb20 flx_col_bet">
+
+        <section class="sub_conts">
+
+            <dl class="point_dl">
+                <dt class="fs02">전환할 포인트</dt>
+                <dd class="pt_put_line">
+                   <input type="text" class="point_put ff_robo" value="16,000원" placeholder="">
+                   <button type="button" class="btn_pt">전체</button>
+                </dd>
+            </dl>
+
+            <article class="gr_exchange">      
+                <section class="exch_gallery">
+                    <div class="exch_circle exh_tema">
+                        <h5 class="circle_call m-t-5">웰컴머니</h5>
+                        <h3 class="circle_point m-t-3">
+                            <span>-16,000</span>
+                            <span class="unit">원</span>
+                        </h3>
+                        <p class="circle_save">
+                            <span>전환가능</span>
+                            <span class="m-l-2 m-r-2">:</span>
+                            <span>16,000원</span>
+                        </p>
+                        <button type="button" class="btn_reload"></button>
+                    </div><!--exch_circle-->
+                    <p class="pt_arr">
+                        <img src="../images/sv_arr_mini.svg" />
+                    </p>
+                    <div class="exch_circle">
+                        <img class="circle_img" src="../images/th_liiv_short.png" />
+                        <h3 class="circle_point m-t-5">
+                            <span>+16,000</span><span class="m-l-2">P</span>
+                        </h3>
+                        <button type="button" class="btn_reload"></button>
+                    </div><!--exch_circle-->
+                </section>
+                <p class="agr_line m-t-15">
+                    <span class="sun">-</span>
+                    <span class="agr_txt">새로고침하여 현재 보유한 포인트를 확인할 수 있습니다.</span>
+                </p>
+            </article><!--gr_exchange-->
+            
+        </section><!--sub_conts-->
+
+        <section class="button_zone">
+            <button type="button" class="button on" onclick="location.href='../exchange/point_result.html'">
+                전환하기
+            </button>
+        </section>
+
+    </div><!--Contents-->
+
+</div><!--wrap_main-->
+
+<!-- 팝업 -->
+<!-- <div id="exchModal01" class="modaling">
+    <div class="modal_bg"></div>
+	<div class="modal_body ting">
+		<div class="pop_top">
+            <h1>내용을 확인해주세요</h1>
+        </div>
+        <div class="pop_cont">
+            <div class="measure_cont p-t-0">
+                <dl class="meas_dl">
+                    <dt>신청 계좌 :</dt>
+                    <dd>
+                        <span class="meas_word">웰컴디지털뱅크</span>
+                        <span class="meas_word">111-234-56789</span>
+                    </dd>
+                </dl>
+                <dl class="meas_dl">
+                    <dt>출 금 일 :</dt>
+                    <dd>
+                        <span class="meas_word">10일</span>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+        <button type="button" class="btn_pop b-close" onclick="location.href='../exchange/point_result.html'">
+            변경하기
+        </button>
+        <button type="button" class="btn_pop btn_pop_cancel b-close">취소</button>
+	</div>
+</div>
+
+<script>
+    function exch_pop(){
+        var modal01 = document.getElementById("exchModal01");
+        modal01.style.display = "block";
+    }
+</script> -->
+<!-- 팝업 End -->
+
+<script type="text/javascript" src="../js/after.js"></script>
+</body>
+
+</html>

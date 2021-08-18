@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type"  content="text/html;charset=utf-8"/> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Wellcome payments</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" />
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<link href='https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="../css/style_well.css" />
+
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/com_ui.js"></script>
+</head>
+
+<body>
+
+<div class="wrap">
+    
+    <div class="Contents in_pdb flx_col_bet">
+        
+        <section class="the_top">
+            <article class="top_center">
+                <p class="go_back">
+                    <a href="#" onclick="moveBack();">
+                        <img class="img_back" src="../images/sv_arr_back.svg" />
+                    </a>
+                </p>
+                <div class="top_title">
+                    <h1 class="fs03">회원탈퇴</h1>
+                </div>
+            </article><!--top_center-->
+        </section>
+
+        <section class="join_conts">     
+            <dl class="draw_dl">
+                <dt>
+                    <img class="img_norm" src="../images/sv_check.svg" alt="체크" />
+                    <img class="img_on" src="../images/sv_check_blue.svg" alt="체크온" />
+                    <span class="fs02 m-l-5">
+                        안내사항을 확인하였으며, 이에 동의합니다.
+                    </span>
+                </dt>
+                <dd>
+                    회원탈퇴 시 모든 회원정보 및 서비스 이용기록이 삭제됩니다. 
+                    삭제된 데이터는 복구할 수 없으므로 신중이 진행해 주시길 부탁드립니다.
+                </dd>
+            </dl>
+            <article class="gift_box did">
+                <div class="gf_result_midd">
+                    <div class="point_line">
+                        <p class="pline_left">
+                            출금이 필요한 충전 포인트
+                        </p>
+                        <p class="pline_right">
+                            <span class="ff_robo">6,100</span>
+                            <span>원</span>
+                        </p>
+                    </div><!--point_line-->
+                    <div class="point_line">
+                        <p class="pline_left">
+                            소멸 예정 적립 포인트
+                        </p>
+                        <p class="pline_right">
+                            <span class="ff_robo">500</span>
+                            <span>원</span>
+                        </p>
+                    </div><!--point_line-->
+
+                </div><!--gf_result_midd-->
+            </article><!--gift_box-->
+        </section>
+
+        <section class="button_zone">
+            <div class="gr_request">
+                <span class="dpblock">
+                    웰컴머니 잔액을 모두 출금한 후 탈퇴 가능합니다.
+                </span>
+                <a class="link_block">
+                    출금신청하러 가기
+                </a>
+            </div>
+            <button type="button" class="button on" onclick="drawalPop();">
+                탈퇴하기
+            </button>
+        </section>
+
+    </div><!--Contents-->
+
+</div><!--wrap-->
+
+
+<div class="modaling draw_Pop01">
+    <div class="modal_bg"></div>
+	<div class="modal_body ting">
+		<div class="pop_top">
+            <h1>회원탈퇴</h1>
+        </div>
+        <div class="pop_cont">
+            <p class="pop_text txt">
+                정말로 탈퇴하시겠습니까?
+            </p>
+        </div>
+        <button type="button" class="btn_pop b-close" onclick="location.href='../more/with_drawal02.html'">확인</button>
+        <button type="button" class="btn_pop btn_pop_cancel b-close">취소</button>
+	</div><!-- modal_body -->
+</div><!--modaling-->
+
+<script>
+    function drawalPop(){
+        var drawP01 = document.querySelector('.draw_Pop01');
+        drawP01.style.display = 'block';
+    }
+</script>
+
+<script type="text/javascript" src="../js/after.js"></script>
+
+</body>
+
+</html>

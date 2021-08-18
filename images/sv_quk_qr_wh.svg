@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <style>
+            .cls-1{fill:#fff}
+        </style>
+    </defs>
+    <g id="그룹_2686" transform="translate(-50 -742.714)">
+        <g id="그룹_2093" transform="translate(61 747.714)">
+            <path id="패스_3140" d="M154.858 48.292h-13.132a2.432 2.432 0 0 0-2.434 2.424v26.152a2.432 2.432 0 0 0 2.434 2.424h13.131a2.432 2.432 0 0 0 2.434-2.424V50.716a2.432 2.432 0 0 0-2.433-2.424zm-13.131.926h13.131a1.5 1.5 0 0 1 1.5 1.5v1.5h-16.136v-1.5a1.5 1.5 0 0 1 1.504-1.5zm14.636 3.923V73.79h-16.141V53.14zm-1.5 25.226h-13.137a1.5 1.5 0 0 1-1.5-1.5v-2.152h16.141v2.152a1.5 1.5 0 0 1-1.509 1.499z" class="cls-1" transform="translate(-139.292 -48.292)"/>
+            <path id="사각형_1907" d="M0 0H2.741V0.971H0z" class="cls-1" transform="translate(7.63 27.289)"/>
+            <path id="패스_3141" d="M148.688 62.292h-4.4v4.4h4.4zm-.97 3.426h-2.456v-2.456h2.456z" class="cls-1" transform="translate(-141.053 -53.208)"/>
+            <path id="패스_3142" d="M159.688 62.292h-4.4v4.4h4.4zm-.97 3.426h-2.456v-2.456h2.456z" class="cls-1" transform="translate(-144.927 -53.208)"/>
+            <path id="패스_3143" d="M144.292 77.688h4.4v-4.4h-4.4zm.97-3.426h2.456v2.456h-2.456z" class="cls-1" transform="translate(-141.053 -57.07)"/>
+            <path id="패스_3144" d="M155.292 77.688h4.4v-4.4h-4.4zm.97-3.426h2.456v2.456h-2.456z" class="cls-1" transform="translate(-144.927 -57.07)"/>
+            <path id="사각형_1908" d="M0 0H0.971V2.741H0z" class="cls-1" transform="translate(8.515 8.923)"/>
+            <path id="사각형_1909" d="M0 0H2.055V0.971H0z" class="cls-1" transform="translate(3.075 14.362)"/>
+            <path id="패스_3145" d="M149 70.541h3.226V68h-.971v1.57H149z" class="cls-1" transform="translate(-142.684 -55.168)"/>
+            <path id="사각형_1910" d="M0 0H2.741V0.971H0z" class="cls-1" transform="translate(10.236 14.362)"/>
+            <path id="사각형_1911" d="M0 0H0.971V2.741H0z" class="cls-1" transform="translate(8.515 16.082)"/>
+        </g>
+        <path id="사각형_2072" fill="none" d="M0 0H40V40H0z" transform="translate(50 742.714)"/>
+    </g>
+</svg>

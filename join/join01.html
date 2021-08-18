@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type"  content="text/html;charset=utf-8"/> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Wellcome payments</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" />
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<link href='https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="../css/style_well.css" />
+
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/jquery.bpopup.min.js"></script>
+<script type="text/javascript" src="../js/com_ui.js"></script>
+</head>
+
+<body>
+
+<div class="wrap">
+    
+    <div class="Contents flx_col_bet">
+
+        <section class="the_step">
+            <div class="step_space mlm-75"></div>
+        </section><!--the_step-->
+
+        <section class="join_conts joinp">
+            <div class="greetings">
+                <h1 class="glad">
+                    <span class="big">회원가입</span> 후<br>
+                    서비스 이용이 가능합니다.
+                </h1>
+                <p class="type">가입할 회원유형을 선택해 주세요.</p>
+            </div><!--greetings-->
+
+            <article class="gr_choose">
+                <div class="choose_box">
+                    <p class="cho_check">
+                        <img src="../images/sv_check_blue.svg" />
+                    </p>
+                    <p class="cho_img">
+                        <img class="ic_human img" src="../images/sv_human.svg" />
+                        <img class="ic_human imgblue" src="../images/sv_human_blue.svg" />
+                    </p>
+                    <dl class="cho_text">
+                        <dt>일반회원</dt>
+                        <dd>만 14세 이상 내국인</dd>
+                    </dl>
+                </div><!--choose_box-->
+                <div class="choose_box choose_child">
+                    <p class="cho_check">
+                        <img src="../images/sv_check_blue.svg" />
+                    </p>
+                    <p class="cho_img">
+                        <img class="ic_child img" src="../images/sv_child.svg" />
+                        <img class="ic_child imgblue" src="../images/sv_child_blue.svg" />
+                    </p>
+                    <dl class="cho_text">
+                        <dt>어린이회원</dt>
+                        <dd>만 14세 미만</dd>
+                    </dl>
+                </div><!--choose_box-->
+                <div class="choose_box choose_build">
+                    <p class="cho_check">
+                        <img src="../images/sv_check_blue.svg" />
+                    </p>
+                    <p class="cho_img">
+                        <img class="ic_building img" src="../images/sv_building.svg" />
+                        <img class="ic_building imgblue" src="../images/sv_building_blue.svg" />
+                    </p>
+                    <dl class="cho_text">
+                        <dt>사업자회원</dt>
+                        <dd>개인/법인사업자</dd>
+                    </dl>
+                </div><!--choose_box-->
+            </article><!--gr_choose-->
+
+            <div class="child_conts">
+                <div class="child_agree">
+                    <span class="agrcon_check">
+                        <img class="chline" src="../images/sv_check_line.svg" />
+                        <img class="chline_on" src="../images/sv_bold_check_on.svg" />
+                    </span>
+                    <span class="attent_txt">
+                        <span class="dpblock">만 14세 미만 어린이 회원가입을 위한 보호자 명의의 휴대폰 인증 정보 수집에 동의합니다.</span>
+                    </span>
+                </div>
+            </div><!--child_conts-->
+
+            <div class="build_conts">
+                <div class="build_enroll">
+                    <h3 class="build_exp">사업자 등록증을 가진 회원</h3>
+                    <input type="text" class="put_business" placeholder="사업자등록번호 10자리">
+                </div>    
+            </div><!--build_conts-->
+        </section>
+
+        <section class="button_zone">
+            <button type="button" class="button" onclick="location.href='../join/join02.html'">
+                다음
+            </button>
+        </section>
+        <section class="button_zone zone_build">
+            <p class="build_attent">
+                <span>인증에 문제가 있을 경우</span>
+                <span class="dpblock">나이스평가정보<span class="ff_robo">(02-2122-4000)</span>로 문의 바랍니다.</span>
+            </p>
+            <button type="button" class="button" onclick="look_pop1();">
+                다음
+            </button>
+        </section>
+
+    </div><!--Contents-->
+
+</div><!--wrap-->
+
+<!-- 팝업 -->
+<script>
+    function look_pop1() {	
+		$(".inspect_Pop01").bPopup();
+	}
+</script>
+
+<div class="layer_pop inspect_Pop01">
+	<div class="modal_body">
+		<div class="pop_top">
+            <h1>사업자등록번호 확인</h1>
+        </div>
+        <div class="pop_cont">
+            <p class="pop_text txt">
+                조회되지 않는 사업자등록번호 입니다.<br/>
+                다시 한 번 확인해 주세요.
+            </p>
+        </div>
+        <button type="button" class="btn_pop b-close">확인</button>
+	</div>
+</div><!-- layer_pop -->
+<!-- 팝업 End -->
+
+<!-- 주황색 라인넓이 -->
+<!-- <script>
+    $(function(){
+        $(".step_space").addClass("mlm-75");
+    });
+</script> -->
+<!-- 주황색 라인넓이 End -->
+
+<script type="text/javascript" src="../js/after.js"></script>
+
+</body>
+
+</html>
